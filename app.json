@@ -1,5 +1,5 @@
 {
-      "name": "MissLyraRobot",
+      "name": "MrAdrishbot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/73337f3406d18b80a2683.jpg",  
-   "repository": "https://github.com/NitricXd/MissLyraRobot",
+   "logo":    "https://te.legra.ph/file/a4a265523b4194871a330.jpg",  
+   "repository": "https://github.com/MrAdrish18/MrAdrish",
    "addons": [
           {
          "options": {
@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5329682296"
+         "value": "5131191131"
      },
 
       "HEROKU_API_KEY": {
@@ -64,7 +64,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "MissLyraRobot"
+         "value": "MrAdrish_bot"
       },
 
       "BOT_ID": {
@@ -74,12 +74,12 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Xd_Nitric"
+         "value": "Im_Adrish"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "XCodeSupport"
+         "value": "Adrish_Support"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -97,12 +97,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001637682483"
+         "value": "-1001665556349"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001637682483"
+         "value": "-1001665556349"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -123,7 +123,7 @@
 
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
-         "required": false,
+         "required": true,
          "value": ""
      },
         "ARQ_API": {
@@ -196,7 +196,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/Xd_Nitric"
+         "value": "https://t.me/im_adrish"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
