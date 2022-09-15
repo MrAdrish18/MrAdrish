@@ -79,18 +79,18 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yumi_IMG = "https://telegra.ph/file/73337f3406d18b80a2683.jpg"
+yumi_IMG = "https://te.legra.ph/file/a4a265523b4194871a330.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {}*
 
-Hey There My Name Is *Lyra* [I](https://telegra.ph/file/73337f3406d18b80a2683.jpg) Am Here To Help You Manage Your Groups!
+Hey There My Name Is *Adrish* [I](https://te.legra.ph/file/a4a265523b4194871a330.jpg) Am Here To Help You Manage Your Groups!
 Hit /Help To Find Out More About How To Use Me To My Full Potential!
 ────────────────────────
 乂 Ping Time: {}
 乂 {} User, Database {} Chats.
 ────────────────────────
-*Powered By: @TheXCodeTeam*
+*Powered By: @AdrishFederation*
 """
 
 buttons = [
@@ -98,19 +98,19 @@ buttons = [
         InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="MissLyraRobot_asst"),
+        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="MrAdrish_asst"),
         InlineKeyboardButton(
-            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/NitricXd/MissLyraRobot"
+            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://te.legra.ph/file/b6da0a42b0ef916e4ab45.mp4"
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="MissLyraRobot_"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="MrAdrish_"),
         InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="MissLyraRobot_basichelp"
+            text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="MrAdrish_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/MissLyraRobot?startgroup=true"),
+        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.m/MrAdrish?startgroup=true"),
     ],
 ]
 
@@ -126,7 +126,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @Xd_Nitric's 💕"""
+ @im_adrish 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -482,7 +482,7 @@ def MissLyraRobot_about_callback(update, context):
             f"\n\n✗ `3.) add` @MissLyraRobot `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
             f"\n\n✗ *Lets Enjoy The Lyra Music And Join Support Group @XCoseSupport*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: @TheXCodeTeam!*",
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: @AdrishFederation!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -515,12 +515,12 @@ def MissLyraRobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/LyraLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/TheXCodeTeam"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/AdrishFedlog"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/AdrishFederation"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/XCoseSupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheXCodeTeam"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Adrish_Support"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/AdrishFederation"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="MissLyraRobot_basichelp"),
@@ -531,15 +531,15 @@ def MissLyraRobot_about_callback(update, context):
         )
     elif query.data == "MissLyraRobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR Lyra DEV'S</b>\n"
+            text=f"<b> CREDIT FOR Adrish DEV'S</b>\n"
             
             f"\n`✗ Here Some Developers Helping in Making The Lyra Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Nɪᴛʀɪᴄ", url="t.me/Xd_Nitric"),
-                    InlineKeyboardButton(text="Bᴀᴅɴᴀᴍ", url="t.me/iTs_Badnam"),
+                    InlineKeyboardButton(text="Adrish", url="t.me/im_Adrish"),
+                    InlineKeyboardButton(text="Adrish", url="t.me/im_Adrish"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="MissLyraRobot_basichelp"),
@@ -555,8 +555,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *MissLYraRobot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/NitricXd/MissLyraRobot) .""",
+            text=""" Hi..😻 I'm *MrAdrish*
+                 \nHere is the [🔥Source Code🔥](https://te.legra.ph/file/b6da0a42b0ef916e4ab45.mp4) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
